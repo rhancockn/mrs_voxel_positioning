@@ -1,12 +1,12 @@
-#Voxel Positioning System for Magnetic Resonance Spectroscopy
+# Voxel Positioning System for Magnetic Resonance Spectroscopy
 
-#Overview
+# Overview
 
 The Voxel Positioning System (VPS) is a tool prototyped as a [ParaView](https://www.paraview.org) pipeline for interactively placing bounding boxes on a 3D volume, intended as an aid for planning single voxel magnetic resonance spectroscopy (MRS) experiments. 
 
 VPS allows you to easily evaluate the feasibility of different voxel geometries based on expected field homogeneity, tissue fractions, and ROI content of a voxel. The desired geometry can then be saved as a transform that can be aligned to individual anatomy and/or entered directly into the scanner console to support systematic voxel placement across participants. Notably, this supports oblique voxel orientations around any axis.
 
-##Features
+## Features
 
 - Interactive voxel positioning
 - Oblique voxels
@@ -17,7 +17,7 @@ VPS allows you to easily evaluate the feasibility of different voxel geometries 
 - Calculates the linear transform matrix associated with the voxel position
 
 
-#Setup
+# Setup
 
 1. [Download](https://www.paraview.org/download/) and install ParaView (tested with 5.4.1)
 2. Enable the ParaView AnalyzeNIfTIIO plugin (`Tools->Plugin Manager`). Click the expand arrow next to the plugin name and check the `Auto Load` box to automatically load the plugin each time you use ParaView. Click `Load Selected` and close the dialog.
@@ -25,7 +25,7 @@ VPS allows you to easily evaluate the feasibility of different voxel geometries 
 4. In the `Load State Options` dialog, select `Search files under specified directory` and choose the main voxel tool directory. ParaView should find the required files under `data/templates`.
 
 
-#Usage
+# Usage
 
 ## Interface
 Four layouts are defined:
@@ -102,7 +102,7 @@ The `Pipeline Browser` pane on the left allows you to select and manipulate elem
 
 
 
-#FAQ
+# FAQ
 
 ### Why is the volume of the voxel shown in the annotation smaller than the volume of `Transformed Voxel`?
 
