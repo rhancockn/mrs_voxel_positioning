@@ -19,10 +19,21 @@ VPS allows you to easily evaluate the feasibility of different voxel geometries 
 
 # Setup
 
+## Install ParaView
+
 1. [Download](https://www.paraview.org/download/) and install ParaView (tested with 5.4.1)
 2. Enable the ParaView AnalyzeNIfTIIO plugin (`Tools->Plugin Manager`). Click the expand arrow next to the plugin name and check the `Auto Load` box to automatically load the plugin each time you use ParaView. Click `Load Selected` and close the dialog.
-3. In ParaView, go to `File->Load State` and select the `vps.pvsm` file. Click `Ok`
-4. In the `Load State Options` dialog, select `Search files under specified directory` and choose the main voxel tool directory. ParaView should find the required files under `data/templates`.
+
+## Install Git LFS
+
+[Git LFS](https://git-lfs.github.com) is needed to pull the template data from this repository. Follow the Git LFS [install instructions](https://git-lfs.github.com) and remember to `git lfs install`
+
+## Clone this repository
+
+## Open the VPS ParaView file
+
+1. In ParaView, go to `File->Load State` and select the `vps.pvsm` file. Click `Ok`
+2. In the `Load State Options` dialog, select `Search files under specified directory` and choose the main voxel tool directory. ParaView should find the required files under `data/templates`.
 
 
 # Usage
