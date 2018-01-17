@@ -32,8 +32,14 @@ VPS allows you to easily evaluate the feasibility of different voxel geometries 
 
 ## Open the VPS ParaView file
 
+### Option 1 (recommended)
 1. In ParaView, go to `File->Load State` and select the `vps.pvsm` file. Click `Ok`
 2. In the `Load State Options` dialog, select `Search files under specified directory` and choose the main voxel tool directory. ParaView should find the required files under `data/templates`.
+
+### Option 2 (macOS)
+1. Find your ParaView app (e.g. `/Applications/ParaView-5.4.1`)
+2. If ParaView is installed as `/Applications/ParaView-5.4.1`, just double click `start_vps`
+3. If ParaView is somewhere else, edit the `start_vps`  script.
 
 
 # Usage
