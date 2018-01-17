@@ -51436,7 +51436,7 @@
     </Proxy>
     <Proxy group="sources" type="NIfTIReader" id="5220" servers="1">
       <Property name="FileName" id="5220.FileName" number_of_elements="1">
-        <Element index="0" value="/Users/rhancock/mrs_voxel_positioning/data/templates/anat.nii"/>
+        <Element index="0" value="data/templates/anat.nii"/>
         <Domain name="files" id="5220.FileName.files"/>
       </Property>
     </Proxy>
@@ -51592,19 +51592,19 @@
     </Proxy>
     <Proxy group="sources" type="NIfTIReader" id="5353" servers="1">
       <Property name="FileName" id="5353.FileName" number_of_elements="1">
-        <Element index="0" value="/Users/rhancock/mrs_voxel_positioning/data/templates/atlas.nii"/>
+        <Element index="0" value="data/templates/atlas.nii"/>
         <Domain name="files" id="5353.FileName.files"/>
       </Property>
     </Proxy>
     <Proxy group="sources" type="NIfTIReader" id="5287" servers="1">
       <Property name="FileName" id="5287.FileName" number_of_elements="1">
-        <Element index="0" value="/Users/rhancock/mrs_voxel_positioning/data/templates/b0.nii"/>
+        <Element index="0" value="data/templates/b0.nii"/>
         <Domain name="files" id="5287.FileName.files"/>
       </Property>
     </Proxy>
     <Proxy group="sources" type="NIfTIReader" id="7280" servers="1">
       <Property name="FileName" id="7280.FileName" number_of_elements="1">
-        <Element index="0" value="/Users/rhancock/mrs_voxel_positioning/data/templates/tissue.nii"/>
+        <Element index="0" value="data/templates/tissue.nii"/>
         <Domain name="files" id="7280.FileName.files"/>
       </Property>
     </Proxy>

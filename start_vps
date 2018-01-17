@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#This should be the full path to the ParaView app
+#Must end in .app
+PVAPP=/Applications/ParaView-5.4.1.app
+
+
+BASE="$( cd "$(dirname "$0")" ; pwd -P )"
+cd $BASE
+PVCMD="$PVAPP/Contents/MacOS/paraview"
+
+`$PVCMD --state=vps.pvsm`
