@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/107062454.svg)](https://zenodo.org/badge/latestdoi/107062454)
+
 # Voxel Positioning System for Magnetic Resonance Spectroscopy
 
 # Overview
